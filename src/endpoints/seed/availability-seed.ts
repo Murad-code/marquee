@@ -34,7 +34,7 @@ export const seedAvailability = async (payload: Payload): Promise<void> => {
 
       availabilityRecords.push({
         marquee: marquee.id,
-        date: date,
+        date: date.toISOString().split('T')[0],
         isAvailable: finalAvailability,
         price: finalAvailability ? marquee.price : null, // Use base price if available
         notes: finalAvailability ? null : 'Booked for private event',

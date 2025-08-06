@@ -74,8 +74,12 @@ export const seedMarquees = async (payload: Payload): Promise<void> => {
           altText: 'Classic 6x6 Marquee exterior view',
         },
         {
-          image: marqueeImage1Doc.id,
+          image: marqueeImage2Doc.id,
           altText: 'Classic 6x6 Marquee interior setup',
+        },
+        {
+          image: marqueeImage3Doc.id,
+          altText: 'Classic 6x6 Marquee setup process',
         },
       ],
       features: [
@@ -104,12 +108,16 @@ export const seedMarquees = async (payload: Payload): Promise<void> => {
       setupTime: 4,
       images: [
         {
-          image: marqueeImage2Doc.id,
+          image: marqueeImage1Doc.id,
           altText: 'Premium 8x12 Marquee exterior view',
         },
         {
           image: marqueeImage2Doc.id,
           altText: 'Premium 8x12 Marquee interior setup',
+        },
+        {
+          image: marqueeImage3Doc.id,
+          altText: 'Premium 8x12 Marquee setup process',
         },
       ],
       features: [
@@ -140,12 +148,16 @@ export const seedMarquees = async (payload: Payload): Promise<void> => {
       setupTime: 6,
       images: [
         {
-          image: marqueeImage3Doc.id,
+          image: marqueeImage1Doc.id,
           altText: 'Luxury 10x15 Marquee exterior view',
         },
         {
-          image: marqueeImage3Doc.id,
+          image: marqueeImage2Doc.id,
           altText: 'Luxury 10x15 Marquee interior setup',
+        },
+        {
+          image: marqueeImage3Doc.id,
+          altText: 'Luxury 10x15 Marquee setup process',
         },
       ],
       features: [
